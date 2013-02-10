@@ -53,8 +53,10 @@ alias d="cd ~/Documents/Dropbox"
 alias p="cd ~/Development"
 alias s="cd ~/Sites"
 alias g="git"
-alias sl="subl ."
-alias m="mate ."
+alias sld="subl ." # Open a directory in Sublime
+alias md="mate ." # Open a Directory in TextMate
+alias sl="subl"
+alias m="mate"
 
 #macports apachectl shortcuts
 alias a2reload="sudo /opt/local/apache2/bin/apachectl -k graceful"
