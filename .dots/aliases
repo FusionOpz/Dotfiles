@@ -57,7 +57,7 @@ alias sl="subl ."
 alias m="mate ."
 
 #macports apachectl shortcuts
-alias a2reload="sudo /opt/local/apache2/bin/apachectl -k reload"
+alias a2reload="sudo /opt/local/apache2/bin/apachectl -k graceful"
 alias a2restart="sudo /opt/local/apache2/bin/apachectl -k restart"
 alias a2start="sudo /opt/local/apache2/bin/apachectl -k start"
 alias a2stop="sudo /opt/local/apache2/bin/apachectl -k stop"
