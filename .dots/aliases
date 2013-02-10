@@ -57,10 +57,10 @@ alias sl="subl ."
 alias m="mate ."
 
 #macports apachectl shortcuts
-alias a2reload="/opt/local/apache2/bin/apachectl -k reload"
-alias a2restart="/opt/local/apache2/bin/apachectl -k restart"
-alias a2start="/opt/local/apache2/bin/apachectl -k start"
-alias a2stop="/opt/local/apache2/bin/apachectl -k stop"
+alias a2reload="sudo /opt/local/apache2/bin/apachectl -k reload"
+alias a2restart="sudo /opt/local/apache2/bin/apachectl -k restart"
+alias a2start="sudo /opt/local/apache2/bin/apachectl -k start"
+alias a2stop="sudo /opt/local/apache2/bin/apachectl -k stop"
 
 # File size
 alias fs="stat -f \"%z bytes\""
