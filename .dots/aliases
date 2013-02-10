@@ -51,8 +51,16 @@ alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias p="cd ~/Development"
+alias s="cd ~/Sites"
 alias g="git"
+alias sl="subl ."
 alias m="mate ."
+
+#macports apachectl shortcuts
+alias a2reload="/opt/local/apache2/bin/apachectl -k reload"
+alias a2restart="/opt/local/apache2/bin/apachectl -k restart"
+alias a2start="/opt/local/apache2/bin/apachectl -k start"
+alias a2stop="/opt/local/apache2/bin/apachectl -k stop"
 
 # File size
 alias fs="stat -f \"%z bytes\""
