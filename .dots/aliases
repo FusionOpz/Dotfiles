@@ -52,11 +52,28 @@ alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 alias d="cd ~/Documents/Dropbox"
 alias p="cd ~/Development"
 alias s="cd ~/Sites"
-alias g="git"
 alias sld="subl ." # Open a directory in Sublime
 alias md="mate ." # Open a Directory in TextMate
 alias sl="subl"
 alias m="mate"
+
+# laravel specific aliases...
+alias artisan="php artisan"
+# the aliases below require Jeffery Way's laravel generater
+alias art:c="artisan generate:controller"
+alias art:m="artisan generate:model"
+alias art:mig="artisan generate:migration"
+alias art:v="artisan generate:view"
+alias art:a="artisan generate:assets"
+alias art:t="artisan generate:test"
+alias art:r="artisan generate:resource"
+
+# Git aliases
+alias g="git"
+alias g:i="git init"
+alias g:a="git add"
+alias g:c="git commit"
+alias g:p="git push"
 
 #macports apachectl shortcuts
 alias a2reload="sudo /opt/local/apache2/bin/apachectl -k graceful"
