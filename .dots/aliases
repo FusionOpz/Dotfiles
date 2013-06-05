@@ -59,7 +59,8 @@ alias m="mate"
 
 # laravel specific aliases... Works with both L3 and L4
 alias artisan="php artisan"
-# the aliases below require Jeffery Way's laravel generater
+alias art="artisan" # just a convenience command.
+# the aliases below require Jeffery Way's laravel generator
 alias art:c="artisan generate:controller"
 alias art:m="artisan generate:model"
 alias art:s="artisan generate:seed"
@@ -70,6 +71,7 @@ alias art:r="artisan generate:resource"
 alias art:t="artisan generate:test"
 alias art:f="artisan generate:form" # L4 Specific
 alias art:sc="artisan generate:scaffold" # L4 Specific
+alias art:srv="artisan serve" # L4 Specific.  Requires PHP 5.4
 
 
 # Git aliases
